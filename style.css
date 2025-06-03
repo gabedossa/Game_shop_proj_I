@@ -72,19 +72,80 @@ nav li a{
     line-height: 1.5;
     color: #333;
 }
-
-ul{
+.logo_list{
     display: flex;
-    align-items: center;
+    margin-top: 15px;
+}
+.logo_list li{
+    list-style: none;
+    align-content: center;
+}
+.logo_list img{
+    width: 100px;
+    margin-right: 15px;
+}
+
+ul .playstation{
+    width: 60px;
+}
+
+/* SECTION CONTATO */
+
+#Contato{
+    margin-top: 30px;
+}
+.contato_container{
+    display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+}
+/* Fale Conosco */
+.fale_conosco{
+    width: 30%;
+}
+.title{
+    margin: 10px 0;
 }
 
-ul li{
-    list-style: none; 
+form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
-li img{
-    width: 50px;
+.fale_conosco textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    margin-top: 5px;
 }
 
+.enviar{
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Social Media*/
+.social_media{
+}
+.social_media ul{
+    display: flex;
+    justify-content: space-between;}
+
+li{
+    list-style: none;
+}
+.social_list img{
+    height: 24px;
+}
+
+/* endereço*/
+.endereco{
+    width: 30%;
+}

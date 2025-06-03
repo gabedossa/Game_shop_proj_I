@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Game Shop - A Sua Loja de Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Inicio Header -->
@@ -17,7 +20,7 @@
                     <a href="#Sobre"> Sobre a Loja </a>
                 </li>
                 <li>
-                    <a href="#"> Contato </a>
+                    <a href="#Contato"> Contato </a>
                 </li>
             </ul>
         </nav>
@@ -44,23 +47,45 @@
                             Cras sollicitudin sit amet justo fermentum sagittis. 
                             Vestibulum non scelerisque lacus. Donec ac nisi et elit vulputate varius.
                             Donec magna libero, suscipit ut tempus sit amet, dignissim vel mauris. 
-                            Maecenas sit amet ligula est. Quisque id neque tortor.</p>
-                        <p>Fusce rutrum elit sit amet suscipit cursus. 
-                            Suspendisse tincidunt justo sit amet diam accumsan, non ornare mi molestie. 
-                            Nulla vel iaculis quam. Vivamus non nunc ultrices, tempus sem sit amet, mollis enim. 
-                            Mauris nibh massa, posuere ac suscipit a, imperdiet et erat. 
-                            Cras sollicitudin sit amet justo fermentum sagittis. 
-                            Vestibulum non scelerisque lacus. Donec ac nisi et elit vulputate varius.
-                            Donec magna libero, suscipit ut tempus sit amet, dignissim vel mauris. 
-                            Maecenas sit amet ligula est. Quisque id neque tortor.</p>
-                    <ul>
-                        <ul>
+                            Maecenas sit amet ligula est. Quisque id neque tortor.
+                        </p>
 
+                        <ul class="logo_list">
+                            <li><img src="./IMG/nintendo.png" alt="Logo da Nintendo"></li>
                             <li><img src="./IMG/xbox.png" alt="Logo do Xbox"></li>
-                            <li><img src="./IMG/playstation.png" alt="Logo da PlayStation"></li>
-                            <li><img src="./IMG/nintendo.png" alt="Logo da PlayStation"></li>
+                            <li><img  class="playstation" src="./IMG/playstation.png" alt="Logo da PlayStation"></li>
                         </ul>
                     </div>
+                </div>
+            </section>
+            <section id="Contato">
+                <h2>Contatos</h2>
+                <div class="contato_container">
+                    <div class="fale_conosco">
+                        <h3 class="title">Fale Conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome"/>
+                            <input type="email" placeholder="Seu email"/>
+                            <input type="tel" placeholder="Seu telefone"/>
+                            <textarea placeholder="Sua mensagem"></textarea>
+                            <button class="enviar" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="social_media">
+                        <h3 class="title">Nos acompanhe</h3>
+                        <ul class="social_list">
+                            <li><a href="#" title="Siga-nos no instagram"><img src="./IMG/instagram.png" alt="Instagram"></a></li>
+                            <li><a href="#" title="Curta nossa página no facebook"><img src="./IMG/facebook.png" alt="Facebook"></a></li>
+                            <li><a href="#" title="Inscreva-se no nosso canal do youtube"><img src="./IMG/youtube.png" alt="YouTube"></a></li>
+                        </ul>
+                    </div>
+                    <div class="endereco">
+                        <h3 class="title">Venha até nós</h3>
+                        <p>
+                            Endereço: Rua das Acácias, 123 - centro, Cuiabá - MT, 78000-000
+                        </p>
+                  </div>
+
                 </div>
             </section>
 
